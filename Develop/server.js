@@ -18,7 +18,7 @@ app.use(express.static('public'));
 //   res.sendFile(path.join(__dirname, '/public/notes.html'))
 // );
 
-// GET Route for feedback page
+// GET Route for notes page
 app.get('/notes', (req, res) =>
   res.sendFile(path.join(__dirname, '/public/notes.html'))
 );
